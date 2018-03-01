@@ -15,6 +15,8 @@
   <script src="/js/canvas-to-blob.min.js"></script>
   <script src="/js/introHCI.js"></script>
   <script src="/js/camera.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
   <!-- this is a comment in HTML -->
 
@@ -95,7 +97,7 @@
           <div class="row">
             <label for="">Your Photo</label>
             
-           <!--  <div class="col">
+           <div class="col">
               <div id="camera" class="profile" style="max-width: 250px;">
                 <video autoplay id="camera-video"></video>
                 <button id="camera-button" class="btn btn-primary">Take Photo</button>
@@ -105,7 +107,7 @@
             <div class="col">
               <canvas id="camera-canvas"></canvas>
             </div>
-            -->
+            
           </div>
         </div>
       </div>
@@ -113,5 +115,8 @@
       
     </div>
   </div>
+  <link href="/css/introHCI.css" rel="stylesheet">
+  <script src="/js/googleMaps.js"></script>
+  {{> googleMaps}}
 </body>
 </html>
